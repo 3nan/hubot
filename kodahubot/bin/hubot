@@ -4,5 +4,9 @@ set -e
 
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+export HUBOT_CHATWORK_TOKEN="4783740b3afe192e77a3e34e7d9bb3a8"
+export HUBOT_CHATWORK_ROOMS="46922571"  
+export HUBOT_CHATWORK_API_RATE="500"
+
 
 exec node_modules/.bin/hubot --name "kodabot" "$@"
